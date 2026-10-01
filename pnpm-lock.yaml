@@ -1,0 +1,31 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@azure/msal-browser':
+        specifier: 5.22.0
+        version: 5.22.0
+
+packages:
+
+  '@azure/msal-browser@5.22.0':
+    resolution: {integrity: sha512-5kgu9xeEKgGc2JeidxAtU15NJTqiH/CMCRRQAJ4Rac56kB7KVg91vbNmn+z3RO1vNomPN69UvjKG9h1Pghx6dQ==}
+    engines: {node: '>=0.8.0'}
+
+  '@azure/msal-common@16.14.1':
+    resolution: {integrity: sha512-Or6xhPNyi4zHW25158yxBoyxuCqNSPa5YBVqfF1J5Ks4MJWBo/USXdp05DQIPu1Zli00YZu6t0+h6KvHJealxQ==}
+    engines: {node: '>=0.8.0'}
+
+snapshots:
+
+  '@azure/msal-browser@5.22.0':
+    dependencies:
+      '@azure/msal-common': 16.14.1
+
+  '@azure/msal-common@16.14.1': {}
