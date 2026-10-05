@@ -11,6 +11,9 @@ importers:
       '@azure/msal-browser':
         specifier: 5.22.0
         version: 5.22.0
+      '@crowsi/provider-http-transport':
+        specifier: 0.10.0
+        version: 0.10.0
 
 packages:
 
@@ -22,6 +25,10 @@ packages:
     resolution: {integrity: sha512-Or6xhPNyi4zHW25158yxBoyxuCqNSPa5YBVqfF1J5Ks4MJWBo/USXdp05DQIPu1Zli00YZu6t0+h6KvHJealxQ==}
     engines: {node: '>=0.8.0'}
 
+  '@crowsi/provider-http-transport@0.10.0':
+    resolution: {integrity: sha512-+OuzVoLCsIlByQ52mjqtXQLpg1wYWQJFfoVKeSWqqkopurmgroc3brHL7SgnYrw4ruRN1RCTjmFOWQW05geDnA==}
+    engines: {node: '>=22'}
+
 snapshots:
 
   '@azure/msal-browser@5.22.0':
@@ -29,3 +36,5 @@ snapshots:
       '@azure/msal-common': 16.14.1
 
   '@azure/msal-common@16.14.1': {}
+
+  '@crowsi/provider-http-transport@0.10.0': {}
